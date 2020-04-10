@@ -18,6 +18,9 @@ ctx.strokeStyle = COLOR_INIT;
 ctx.fillStyle = COLOR_INIT;
 ctx.lineWidth = 2.5;
 
+// 초기 색상 활성화
+colors.children[0].classList.add('active');
+
 let isDrawing = false;
 let fillFlag = false;
 
